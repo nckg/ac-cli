@@ -1,7 +1,10 @@
 /**
  * Require configuration from our dotenv files
  */
-require('dotenv').config();
+var path = require('path');
+var config = path.resolve( path.dirname( __filename ), '.env' );
+
+require('dotenv').config({ path: config });
 var _ = require('lodash');
 var colors = require('colors/safe');
 var ActiveCollab = require('./lib/activecollab');
