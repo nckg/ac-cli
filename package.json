@@ -1,0 +1,30 @@
+{
+  "name": "ac-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "acli": "./bin/acli"
+  },
+  "scripts": {
+    "start": "./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Goris <nickgoris@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "activecollab": "0.0.2",
+    "blessed": "^0.1.81",
+    "colors": "^1.1.2",
+    "dotenv": "^2.0.0",
+    "ent": "^2.2.0",
+    "keypress": "^0.2.1",
+    "lodash": "^4.6.1",
+    "marked": "^0.3.5",
+    "marked-terminal": "^1.6.1",
+    "moment": "^2.12.0",
+    "openurl": "^1.1.1",
+    "request": "^2.69.0",
+    "simple-spinner": "0.0.5"
+  }
+}
